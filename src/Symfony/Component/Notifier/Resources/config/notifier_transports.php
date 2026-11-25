@@ -32,6 +32,7 @@ return static function (ContainerConfigurator $container) {
         'facebook-page' => Bridge\FacebookPage\FacebookPageTransportFactory::class,
         'fake-chat' => Bridge\FakeChat\FakeChatTransportFactory::class,
         'firebase' => Bridge\Firebase\FirebaseTransportFactory::class,
+        'github' => Bridge\GitHub\GitHubTransportFactory::class,
         'google-chat' => Bridge\GoogleChat\GoogleChatTransportFactory::class,
         'instagram' => Bridge\Instagram\InstagramTransportFactory::class,
         'line-bot' => Bridge\LineBot\LineBotTransportFactory::class,

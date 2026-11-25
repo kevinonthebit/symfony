@@ -1,0 +1,35 @@
+{
+    "name": "symfony/github-notifier",
+    "type": "symfony-notifier-bridge",
+    "description": "Symfony GitHub Notifier Bridge",
+    "keywords": ["github", "issue", "notifier"],
+    "homepage": "https://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kévin",
+            "homepage": "https://github.com/kevinonthebit"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://symfony.com/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=8.4.1",
+        "psr/log": "^1|^2|^3",
+        "symfony/clock": "^7.4|^8.0",
+        "symfony/http-client": "^7.4|^8.0",
+        "symfony/notifier": "^8.2"
+    },
+    "require-dev": {
+        "symfony/mime": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\Notifier\\Bridge\\GitHub\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

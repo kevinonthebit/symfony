@@ -47,6 +47,7 @@ final class UnsupportedSchemeExceptionTest extends TestCase
             Bridge\FortySixElks\FortySixElksTransportFactory::class => false,
             Bridge\FreeMobile\FreeMobileTransportFactory::class => false,
             Bridge\GatewayApi\GatewayApiTransportFactory::class => false,
+            Bridge\GitHub\GitHubTransportFactory::class => false,
             Bridge\GoIp\GoIpTransportFactory::class => false,
             Bridge\GoogleChat\GoogleChatTransportFactory::class => false,
             Bridge\Infobip\InfobipTransportFactory::class => false,
